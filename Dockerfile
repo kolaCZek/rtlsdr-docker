@@ -1,6 +1,6 @@
-FROM debian:buster-slim
+FROM debian:stable-slim
 
-ARG RTLSDR_VERSION=0.6-1
+ARG RTLSDR_VERSION=0.6.0-3
 ARG BUILD_DATE
 ARG VCS_REF
 
